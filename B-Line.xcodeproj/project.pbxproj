@@ -37,6 +37,8 @@
 		C051B936171C7F1E00EE8D9A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B935171C7F1E00EE8D9A /* OpenGLES.framework */; };
 		C051B938171C7F2400EE8D9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B937171C7F2400EE8D9A /* QuartzCore.framework */; };
 		C051B93A171C7F2C00EE8D9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B939171C7F2C00EE8D9A /* SystemConfiguration.framework */; };
+		C078075B17206FB8001CB8D0 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = C078075A17206FB8001CB8D0 /* Line.m */; };
+		C078075F17207440001CB8D0 /* LineGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C078075E17207440001CB8D0 /* LineGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,10 @@
 		C051B935171C7F1E00EE8D9A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C051B937171C7F2400EE8D9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C051B939171C7F2C00EE8D9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C078075917206FB8001CB8D0 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		C078075A17206FB8001CB8D0 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		C078075D17207440001CB8D0 /* LineGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGame.h; sourceTree = "<group>"; };
+		C078075E17207440001CB8D0 /* LineGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,10 @@
 				C051B90B171C799400EE8D9A /* first@2x.png */,
 				C051B90D171C799400EE8D9A /* SecondViewController.h */,
 				C051B90E171C799400EE8D9A /* SecondViewController.m */,
+				C078075917206FB8001CB8D0 /* Line.h */,
+				C078075A17206FB8001CB8D0 /* Line.m */,
+				C078075D17207440001CB8D0 /* LineGame.h */,
+				C078075E17207440001CB8D0 /* LineGame.m */,
 				C051B910171C799400EE8D9A /* second.png */,
 				C051B912171C799400EE8D9A /* second@2x.png */,
 				C051B914171C799400EE8D9A /* FirstViewController.xib */,
@@ -254,6 +264,8 @@
 				C051B8FF171C799400EE8D9A /* AppDelegate.m in Sources */,
 				C051B908171C799400EE8D9A /* FirstViewController.m in Sources */,
 				C051B90F171C799400EE8D9A /* SecondViewController.m in Sources */,
+				C078075B17206FB8001CB8D0 /* Line.m in Sources */,
+				C078075F17207440001CB8D0 /* LineGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +397,7 @@
 				C051B91E171C799400EE8D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
