@@ -23,6 +23,7 @@
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;
+    [GMSServices provideAPIKey:@"AIzaSyAgEw4HElmGS4cj8wB3l8RI5y3-v-VZb0I"];
     [self.window makeKeyAndVisible];
     return YES;
 }

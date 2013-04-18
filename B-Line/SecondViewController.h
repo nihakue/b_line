@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController{
+    GMSMapView *mapView_;
+}
 
 @end
