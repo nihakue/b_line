@@ -13,15 +13,19 @@
 #import "SecondViewController.h"
 
 @implementation AppDelegate
+@synthesize mainViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    //Load Lines and runs
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    mainViewController = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
     UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    [self.tabBarController setViewControllers:@[mainViewController, viewController2] animated:YES];
     self.window.rootViewController = self.tabBarController;
     [GMSServices provideAPIKey:@"AIzaSyAgEw4HElmGS4cj8wB3l8RI5y3-v-VZb0I"];
     [self.window makeKeyAndVisible];
@@ -36,6 +40,14 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
+    BOOL linesSuccess = [[BLDataStore sharedStore] saveLines];
+    BOOL lineRunsSuccess = [[BLDataStore sharedStore] saveLineRuns];
+    if (lineRunsSuccess && linesSuccess){
+        NSLog(@"Lines and Runs saved succesfully");
+    }
+    else{
+        NSLog(@"Error while saving Lines:%d, LineRuns: %d", linesSuccess, lineRunsSuccess);
+    }
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
@@ -43,11 +55,13 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    NSLog(@"applicationWillEnterForeground");
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    NSLog(@"ApplicationDidBecomeActive");
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

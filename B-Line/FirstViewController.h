@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameViewController.h"
 
-@interface FirstViewController : UIViewController
+
+@interface FirstViewController : UIViewController <UITextFieldDelegate>{
+    
+    IBOutlet UILabel *titleLabel;
+    IBOutlet UIButton *startGameButton;
+    IBOutlet UITextField *destinationTF;
+}
+
+-(IBAction)startGame:(id)sender;
 
 @end

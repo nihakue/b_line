@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GoogleMaps/GoogleMaps.h>
+#import "Line.h"
+#import "BLRunDetailViewController.h"
+#define SHAREDSTORE [BLDataStore sharedStore]
 
-@interface SecondViewController : UIViewController{
-    GMSMapView *mapView_;
+@interface SecondViewController : UIViewController<UITableViewDelegate>{
+    
+    IBOutlet UIButton *loadLineB;
+    IBOutlet UITableView *linesTV;
+    
+    Line* selectedLine;
 }
 
 @end

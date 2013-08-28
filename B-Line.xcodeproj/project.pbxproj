@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C022189F1720F7D700902AAC /* playerMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = C022189E1720F7D700902AAC /* playerMarker.png */; };
 		C051B8EF171C799300EE8D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B8EE171C799300EE8D9A /* UIKit.framework */; };
 		C051B8F1171C799300EE8D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B8F0171C799300EE8D9A /* Foundation.framework */; };
 		C051B8F3171C799300EE8D9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B8F2171C799300EE8D9A /* CoreGraphics.framework */; };
 		C051B8F9171C799300EE8D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C051B8F7171C799300EE8D9A /* InfoPlist.strings */; };
 		C051B8FB171C799300EE8D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C051B8FA171C799300EE8D9A /* main.m */; };
 		C051B8FF171C799400EE8D9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C051B8FE171C799400EE8D9A /* AppDelegate.m */; };
-		C051B901171C799400EE8D9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B900171C799400EE8D9A /* Default.png */; };
-		C051B903171C799400EE8D9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B902171C799400EE8D9A /* Default@2x.png */; };
-		C051B905171C799400EE8D9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B904171C799400EE8D9A /* Default-568h@2x.png */; };
 		C051B908171C799400EE8D9A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C051B907171C799400EE8D9A /* FirstViewController.m */; };
 		C051B90A171C799400EE8D9A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B909171C799400EE8D9A /* first.png */; };
 		C051B90C171C799400EE8D9A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B90B171C799400EE8D9A /* first@2x.png */; };
@@ -23,8 +21,6 @@
 		C051B911171C799400EE8D9A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B910171C799400EE8D9A /* second.png */; };
 		C051B913171C799400EE8D9A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C051B912171C799400EE8D9A /* second@2x.png */; };
 		C051B916171C799400EE8D9A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C051B914171C799400EE8D9A /* FirstViewController.xib */; };
-		C051B920171C7CF000EE8D9A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B91F171C7CF000EE8D9A /* GoogleMaps.framework */; };
-		C051B922171C7EBB00EE8D9A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C051B921171C7EBB00EE8D9A /* GoogleMaps.bundle */; };
 		C051B924171C7ED900EE8D9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B923171C7ED900EE8D9A /* AVFoundation.framework */; };
 		C051B926171C7EE000EE8D9A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B925171C7EE000EE8D9A /* CoreData.framework */; };
 		C051B928171C7EE600EE8D9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B927171C7EE600EE8D9A /* CoreLocation.framework */; };
@@ -37,11 +33,35 @@
 		C051B936171C7F1E00EE8D9A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B935171C7F1E00EE8D9A /* OpenGLES.framework */; };
 		C051B938171C7F2400EE8D9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B937171C7F2400EE8D9A /* QuartzCore.framework */; };
 		C051B93A171C7F2C00EE8D9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051B939171C7F2C00EE8D9A /* SystemConfiguration.framework */; };
+		C0535A2F17279D7B00F40AAD /* BDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0535A2E17279D7B00F40AAD /* BDView.m */; };
+		C0535A3217279DC000F40AAD /* BLineLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0535A3117279DC000F40AAD /* BLineLoadingView.m */; };
+		C058E193172A4C340017CA9C /* BLRunView.m in Sources */ = {isa = PBXBuildFile; fileRef = C058E192172A4C340017CA9C /* BLRunView.m */; };
+		C058E197172A50BB0017CA9C /* BLRunDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C058E195172A50BB0017CA9C /* BLRunDetailViewController.m */; };
+		C058E198172A50BB0017CA9C /* BLRunDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C058E196172A50BB0017CA9C /* BLRunDetailViewController.xib */; };
+		C058E19E172A5C190017CA9C /* far.wav in Resources */ = {isa = PBXBuildFile; fileRef = C058E199172A5C180017CA9C /* far.wav */; };
+		C058E19F172A5C190017CA9C /* near.wav in Resources */ = {isa = PBXBuildFile; fileRef = C058E19A172A5C180017CA9C /* near.wav */; };
+		C058E1A0172A5C190017CA9C /* notNear.wav in Resources */ = {isa = PBXBuildFile; fileRef = C058E19B172A5C180017CA9C /* notNear.wav */; };
+		C058E1A1172A5C190017CA9C /* realFar.wav in Resources */ = {isa = PBXBuildFile; fileRef = C058E19C172A5C190017CA9C /* realFar.wav */; };
+		C058E1A2172A5C190017CA9C /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = C058E19D172A5C190017CA9C /* win.wav */; };
 		C078075B17206FB8001CB8D0 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = C078075A17206FB8001CB8D0 /* Line.m */; };
-		C078075F17207440001CB8D0 /* LineGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C078075E17207440001CB8D0 /* LineGame.m */; };
+		C088C27A1720A3EA00E0E8EF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D084131720A30D00751D93 /* GoogleMaps.framework */; };
+		C0AE14D91728C0DD006545DC /* bLineSmallIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE14D81728C0DD006545DC /* bLineSmallIcon.png */; };
+		C0AE14DD1728D47C006545DC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE14DC1728D47C006545DC /* Default.png */; };
+		C0AE14DF1728D487006545DC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE14DE1728D487006545DC /* Default@2x.png */; };
+		C0AE14E11728D494006545DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE14E01728D494006545DC /* Default-568h@2x.png */; };
+		C0AE14E41728E09E006545DC /* LineRun.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AE14E31728E09E006545DC /* LineRun.m */; };
+		C0B3C4D6172B0571004BAC82 /* oldMainToIceCream.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C0B3C4D5172B0571004BAC82 /* oldMainToIceCream.gpx */; };
+		C0C0D16A172A1F060038FC7F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C0D169172A1F060038FC7F /* SecondViewController.xib */; };
+		C0C4D80A172A260D0093ECC8 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0C4D809172A260D0093ECC8 /* Pacifico.ttf */; };
+		C0D0840F172092B400751D93 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D0840E172092B400751D93 /* GameViewController.m */; };
+		C0D0841217209F4400751D93 /* go.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D0841117209F4400751D93 /* go.png */; };
+		C0D084161720A34400751D93 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0D084151720A34400751D93 /* GoogleMaps.bundle */; };
+		C0E3B0EF1720831200916DD0 /* BLDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3B0EE1720831200916DD0 /* BLDataStore.m */; };
+		C0E3B0F31720847A00916DD0 /* BLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3B0F21720847A00916DD0 /* BLItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C022189E1720F7D700902AAC /* playerMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerMarker.png; sourceTree = "<group>"; };
 		C051B8EA171C799300EE8D9A /* B-Line.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "B-Line.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C051B8EE171C799300EE8D9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C051B8F0171C799300EE8D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +84,6 @@
 		C051B910171C799400EE8D9A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		C051B912171C799400EE8D9A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		C051B915171C799400EE8D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		C051B91F171C7CF000EE8D9A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		C051B921171C7EBB00EE8D9A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../../Downloads/GoogleMaps-iOS-1.1.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		C051B923171C7ED900EE8D9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C051B925171C7EE000EE8D9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C051B927171C7EE600EE8D9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -78,10 +96,40 @@
 		C051B935171C7F1E00EE8D9A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C051B937171C7F2400EE8D9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C051B939171C7F2C00EE8D9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C0535A2D17279D7B00F40AAD /* BDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDView.h; path = ../BDView.h; sourceTree = "<group>"; };
+		C0535A2E17279D7B00F40AAD /* BDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDView.m; path = ../BDView.m; sourceTree = "<group>"; };
+		C0535A3017279DC000F40AAD /* BLineLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLineLoadingView.h; sourceTree = "<group>"; };
+		C0535A3117279DC000F40AAD /* BLineLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLineLoadingView.m; sourceTree = "<group>"; };
+		C058E191172A4C340017CA9C /* BLRunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRunView.h; sourceTree = "<group>"; };
+		C058E192172A4C340017CA9C /* BLRunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRunView.m; sourceTree = "<group>"; };
+		C058E194172A50BB0017CA9C /* BLRunDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRunDetailViewController.h; sourceTree = "<group>"; };
+		C058E195172A50BB0017CA9C /* BLRunDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRunDetailViewController.m; sourceTree = "<group>"; };
+		C058E196172A50BB0017CA9C /* BLRunDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLRunDetailViewController.xib; sourceTree = "<group>"; };
+		C058E199172A5C180017CA9C /* far.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = far.wav; path = ../far.wav; sourceTree = "<group>"; };
+		C058E19A172A5C180017CA9C /* near.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = near.wav; path = ../near.wav; sourceTree = "<group>"; };
+		C058E19B172A5C180017CA9C /* notNear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = notNear.wav; path = ../notNear.wav; sourceTree = "<group>"; };
+		C058E19C172A5C190017CA9C /* realFar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = realFar.wav; path = ../realFar.wav; sourceTree = "<group>"; };
+		C058E19D172A5C190017CA9C /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = ../win.wav; sourceTree = "<group>"; };
 		C078075917206FB8001CB8D0 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
 		C078075A17206FB8001CB8D0 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
-		C078075D17207440001CB8D0 /* LineGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGame.h; sourceTree = "<group>"; };
-		C078075E17207440001CB8D0 /* LineGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGame.m; sourceTree = "<group>"; };
+		C0AE14D81728C0DD006545DC /* bLineSmallIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bLineSmallIcon.png; path = ../bLineSmallIcon.png; sourceTree = "<group>"; };
+		C0AE14DC1728D47C006545DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		C0AE14DE1728D487006545DC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		C0AE14E01728D494006545DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0AE14E21728E09E006545DC /* LineRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineRun.h; sourceTree = "<group>"; };
+		C0AE14E31728E09E006545DC /* LineRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineRun.m; sourceTree = "<group>"; };
+		C0B3C4D5172B0571004BAC82 /* oldMainToIceCream.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = oldMainToIceCream.gpx; path = ../oldMainToIceCream.gpx; sourceTree = "<group>"; };
+		C0C0D169172A1F060038FC7F /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		C0C4D809172A260D0093ECC8 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		C0D0840D172092B400751D93 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C0D0840E172092B400751D93 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C0D0841117209F4400751D93 /* go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go.png; sourceTree = "<group>"; };
+		C0D084131720A30D00751D93 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		C0D084151720A34400751D93 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		C0E3B0ED1720831200916DD0 /* BLDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDataStore.h; sourceTree = "<group>"; };
+		C0E3B0EE1720831200916DD0 /* BLDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDataStore.m; sourceTree = "<group>"; };
+		C0E3B0F11720847A00916DD0 /* BLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLItem.h; sourceTree = "<group>"; };
+		C0E3B0F21720847A00916DD0 /* BLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C088C27A1720A3EA00E0E8EF /* GoogleMaps.framework in Frameworks */,
 				C051B93A171C7F2C00EE8D9A /* SystemConfiguration.framework in Frameworks */,
 				C051B938171C7F2400EE8D9A /* QuartzCore.framework in Frameworks */,
 				C051B936171C7F1E00EE8D9A /* OpenGLES.framework in Frameworks */,
@@ -104,7 +153,6 @@
 				C051B8EF171C799300EE8D9A /* UIKit.framework in Frameworks */,
 				C051B8F1171C799300EE8D9A /* Foundation.framework in Frameworks */,
 				C051B8F3171C799300EE8D9A /* CoreGraphics.framework in Frameworks */,
-				C051B920171C7CF000EE8D9A /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +179,8 @@
 		C051B8ED171C799300EE8D9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0D084151720A34400751D93 /* GoogleMaps.bundle */,
+				C0D084131720A30D00751D93 /* GoogleMaps.framework */,
 				C051B939171C7F2C00EE8D9A /* SystemConfiguration.framework */,
 				C051B937171C7F2400EE8D9A /* QuartzCore.framework */,
 				C051B935171C7F1E00EE8D9A /* OpenGLES.framework */,
@@ -143,8 +193,6 @@
 				C051B927171C7EE600EE8D9A /* CoreLocation.framework */,
 				C051B925171C7EE000EE8D9A /* CoreData.framework */,
 				C051B923171C7ED900EE8D9A /* AVFoundation.framework */,
-				C051B921171C7EBB00EE8D9A /* GoogleMaps.bundle */,
-				C051B91F171C7CF000EE8D9A /* GoogleMaps.framework */,
 				C051B8EE171C799300EE8D9A /* UIKit.framework */,
 				C051B8F0171C799300EE8D9A /* Foundation.framework */,
 				C051B8F2171C799300EE8D9A /* CoreGraphics.framework */,
@@ -159,17 +207,24 @@
 				C051B8FE171C799400EE8D9A /* AppDelegate.m */,
 				C051B906171C799400EE8D9A /* FirstViewController.h */,
 				C051B907171C799400EE8D9A /* FirstViewController.m */,
-				C051B909171C799400EE8D9A /* first.png */,
-				C051B90B171C799400EE8D9A /* first@2x.png */,
+				C051B914171C799400EE8D9A /* FirstViewController.xib */,
 				C051B90D171C799400EE8D9A /* SecondViewController.h */,
 				C051B90E171C799400EE8D9A /* SecondViewController.m */,
+				C0C0D169172A1F060038FC7F /* SecondViewController.xib */,
+				C058E194172A50BB0017CA9C /* BLRunDetailViewController.h */,
+				C058E195172A50BB0017CA9C /* BLRunDetailViewController.m */,
+				C058E196172A50BB0017CA9C /* BLRunDetailViewController.xib */,
+				C0D0840D172092B400751D93 /* GameViewController.h */,
+				C0D0840E172092B400751D93 /* GameViewController.m */,
+				C0AE14E21728E09E006545DC /* LineRun.h */,
+				C0AE14E31728E09E006545DC /* LineRun.m */,
+				C0535A3017279DC000F40AAD /* BLineLoadingView.h */,
+				C0535A3117279DC000F40AAD /* BLineLoadingView.m */,
+				C0535A2D17279D7B00F40AAD /* BDView.h */,
+				C0535A2E17279D7B00F40AAD /* BDView.m */,
 				C078075917206FB8001CB8D0 /* Line.h */,
 				C078075A17206FB8001CB8D0 /* Line.m */,
-				C078075D17207440001CB8D0 /* LineGame.h */,
-				C078075E17207440001CB8D0 /* LineGame.m */,
-				C051B910171C799400EE8D9A /* second.png */,
-				C051B912171C799400EE8D9A /* second@2x.png */,
-				C051B914171C799400EE8D9A /* FirstViewController.xib */,
+				C0D0840B1720926D00751D93 /* DataClasses */,
 				C051B8F5171C799300EE8D9A /* Supporting Files */,
 			);
 			path = "B-Line";
@@ -178,8 +233,12 @@
 		C051B8F5171C799300EE8D9A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C051B8F6171C799300EE8D9A /* B-Line-Info.plist */,
+				C0B3C4D5172B0571004BAC82 /* oldMainToIceCream.gpx */,
+				C058E1A3172A5C270017CA9C /* Audio */,
+				C0C4D809172A260D0093ECC8 /* Pacifico.ttf */,
+				C0D084101720942F00751D93 /* Art Assets */,
 				C051B8F7171C799300EE8D9A /* InfoPlist.strings */,
+				C051B8F6171C799300EE8D9A /* B-Line-Info.plist */,
 				C051B8FA171C799300EE8D9A /* main.m */,
 				C051B8FC171C799400EE8D9A /* B-Line-Prefix.pch */,
 				C051B900171C799400EE8D9A /* Default.png */,
@@ -187,6 +246,48 @@
 				C051B904171C799400EE8D9A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C058E1A3172A5C270017CA9C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C058E199172A5C180017CA9C /* far.wav */,
+				C058E19A172A5C180017CA9C /* near.wav */,
+				C058E19B172A5C180017CA9C /* notNear.wav */,
+				C058E19C172A5C190017CA9C /* realFar.wav */,
+				C058E19D172A5C190017CA9C /* win.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		C0D0840B1720926D00751D93 /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3B0ED1720831200916DD0 /* BLDataStore.h */,
+				C0E3B0EE1720831200916DD0 /* BLDataStore.m */,
+				C058E191172A4C340017CA9C /* BLRunView.h */,
+				C058E192172A4C340017CA9C /* BLRunView.m */,
+				C0E3B0F11720847A00916DD0 /* BLItem.h */,
+				C0E3B0F21720847A00916DD0 /* BLItem.m */,
+			);
+			name = DataClasses;
+			sourceTree = "<group>";
+		};
+		C0D084101720942F00751D93 /* Art Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C0AE14E01728D494006545DC /* Default-568h@2x.png */,
+				C0AE14DE1728D487006545DC /* Default@2x.png */,
+				C0AE14DC1728D47C006545DC /* Default.png */,
+				C0AE14D81728C0DD006545DC /* bLineSmallIcon.png */,
+				C022189E1720F7D700902AAC /* playerMarker.png */,
+				C0D0841117209F4400751D93 /* go.png */,
+				C051B909171C799400EE8D9A /* first.png */,
+				C051B90B171C799400EE8D9A /* first@2x.png */,
+				C051B910171C799400EE8D9A /* second.png */,
+				C051B912171C799400EE8D9A /* second@2x.png */,
+			);
+			name = "Art Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,15 +342,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				C051B8F9171C799300EE8D9A /* InfoPlist.strings in Resources */,
-				C051B901171C799400EE8D9A /* Default.png in Resources */,
-				C051B903171C799400EE8D9A /* Default@2x.png in Resources */,
-				C051B905171C799400EE8D9A /* Default-568h@2x.png in Resources */,
 				C051B90A171C799400EE8D9A /* first.png in Resources */,
 				C051B90C171C799400EE8D9A /* first@2x.png in Resources */,
 				C051B911171C799400EE8D9A /* second.png in Resources */,
 				C051B913171C799400EE8D9A /* second@2x.png in Resources */,
 				C051B916171C799400EE8D9A /* FirstViewController.xib in Resources */,
-				C051B922171C7EBB00EE8D9A /* GoogleMaps.bundle in Resources */,
+				C0D0841217209F4400751D93 /* go.png in Resources */,
+				C0D084161720A34400751D93 /* GoogleMaps.bundle in Resources */,
+				C022189F1720F7D700902AAC /* playerMarker.png in Resources */,
+				C0AE14D91728C0DD006545DC /* bLineSmallIcon.png in Resources */,
+				C0AE14DD1728D47C006545DC /* Default.png in Resources */,
+				C0AE14DF1728D487006545DC /* Default@2x.png in Resources */,
+				C0AE14E11728D494006545DC /* Default-568h@2x.png in Resources */,
+				C0C0D16A172A1F060038FC7F /* SecondViewController.xib in Resources */,
+				C0C4D80A172A260D0093ECC8 /* Pacifico.ttf in Resources */,
+				C058E198172A50BB0017CA9C /* BLRunDetailViewController.xib in Resources */,
+				C058E19E172A5C190017CA9C /* far.wav in Resources */,
+				C058E19F172A5C190017CA9C /* near.wav in Resources */,
+				C058E1A0172A5C190017CA9C /* notNear.wav in Resources */,
+				C058E1A1172A5C190017CA9C /* realFar.wav in Resources */,
+				C058E1A2172A5C190017CA9C /* win.wav in Resources */,
+				C0B3C4D6172B0571004BAC82 /* oldMainToIceCream.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +378,14 @@
 				C051B908171C799400EE8D9A /* FirstViewController.m in Sources */,
 				C051B90F171C799400EE8D9A /* SecondViewController.m in Sources */,
 				C078075B17206FB8001CB8D0 /* Line.m in Sources */,
-				C078075F17207440001CB8D0 /* LineGame.m in Sources */,
+				C0E3B0EF1720831200916DD0 /* BLDataStore.m in Sources */,
+				C0E3B0F31720847A00916DD0 /* BLItem.m in Sources */,
+				C0D0840F172092B400751D93 /* GameViewController.m in Sources */,
+				C0535A2F17279D7B00F40AAD /* BDView.m in Sources */,
+				C0535A3217279DC000F40AAD /* BLineLoadingView.m in Sources */,
+				C0AE14E41728E09E006545DC /* LineRun.m in Sources */,
+				C058E193172A4C340017CA9C /* BLRunView.m in Sources */,
+				C058E197172A50BB0017CA9C /* BLRunDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +474,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "B-Line/B-Line-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "B-Line/B-Line-Info.plist";
 				MY_BUNDLE_NAME = bLine;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,9 +491,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "B-Line/B-Line-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "B-Line/B-Line-Info.plist";
 				MY_BUNDLE_NAME = bLine;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
