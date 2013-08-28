@@ -2,6 +2,10 @@ b_line
 ======
 
 The world's worst GPS app. First, enter your destination. b_line will calculate the shortest route. Good luck following it!
+B-Line is an iOS app that I developed as a part of my iOS/software development class at USU. 
+It is in a pretty sorry alpha sort of state right now, 
+and I don't have any real plans to extend it in the immediate future. 
+I think it's a funny idea, though, and would love to see someone play around with it.
 
 Usage
 ------
