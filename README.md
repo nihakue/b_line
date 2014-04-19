@@ -11,3 +11,6 @@ Usage
 ------
 There isn't much to it. I have ignored the GoogleMaps.framework files neccesary to run the app. You will need to download
 them from google, and put them in the app's root directory.
+
+
+![Load games](https://imgflip.com/gif/88yml)
