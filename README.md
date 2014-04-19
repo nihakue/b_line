@@ -15,12 +15,15 @@ How to Play
 ###Load a previous b-line or start a new one
 ####Loading a game
 Lines that you attempt are stored locally, and you can compare you and your friends' runs
+
 ![Load games](http://i.imgflip.com/88yml.gif)
 ####Viewing a run's information
 ![View run stats](http://i.imgflip.com/890xk.gif)
 ####Start a new run from your current location
 Enter your destination (Address, place name, post code all work) and the game begins.
+
 ![Start a new game](https://i.imgflip.com/890yd.gif)
 ####Reach your destination without straying from the line.
 The closer you can stay to the line, the more points you'll rack up. If you start to stray from the line, audio queues will warn you.
+
 ![Play!](https://i.imgflip.com/890z4.gif)
