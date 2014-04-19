@@ -13,4 +13,4 @@ There isn't much to it. I have ignored the GoogleMaps.framework files neccesary 
 them from google, and put them in the app's root directory.
 
 
-![Load games](https://imgflip.com/gif/88yml)
+![Load games](http://i.imgflip.com/88yml.gif)
